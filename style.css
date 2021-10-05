@@ -1,0 +1,17 @@
+* {
+  --text-color: #333;
+  --quote-color: #666;
+
+  box-sizing: border-box;
+}
+
+* {
+  color: var(--text-color);
+  font-family: sans-serif;
+}
+
+.quote {
+  border-left: 1px solid var(--quote-color);
+  color: var(--quote-color);
+  padding-left: 8px;
+}
